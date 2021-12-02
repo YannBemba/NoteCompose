@@ -22,4 +22,7 @@ data class Note(
             RedPink,
         )
     }
+
 }
+
+class InvalidNoteException(message: String): Exception(message)
